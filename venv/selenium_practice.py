@@ -7,7 +7,7 @@ browser.get('http://www.yahoo.com/')
 
 assert 'Yahoo' in browser.title
 
-elem = browser.find_element_by_name('p') # Q is the browser search element name
+elem = browser.find_element_by_name('p') # q is the browser search element name for google
 elem.send_keys('How many potatoes are in Ireland?' + Keys.RETURN)
 
 sleep(5)
