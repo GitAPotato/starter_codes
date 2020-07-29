@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CPPSHPEADPChallenger/.idea/CPPSHPEADPChallenger.iml" filepath="$PROJECT_DIR$/../CPPSHPEADPChallenger/.idea/CPPSHPEADPChallenger.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Doge.iml" filepath="$PROJECT_DIR$/.idea/Doge.iml" />
     </modules>
   </component>
