@@ -33,6 +33,12 @@ print('--------------------')
 print(data_z)
 print('--------------------')
 
+threeD = plt.figure()
+ax = plt.axes(projection = '3d')
+ax.plot(data_x,data_y,data_z)
+plt.show()
+
+"""
 x_graph = plt.figure()
 plt.plot(time, data_x, label='Position Vs Time (X-Position)')
 plt.xlabel('Time')
@@ -53,3 +59,4 @@ plt.xlabel('Time')
 plt.ylabel('Z Position')
 plt.title('Position vs Time')
 plt.show()
+"""
